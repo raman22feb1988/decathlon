@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button9"
+        android:text="Restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textview10"
+        android:textStyle="bold"
+        android:text="1st Position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button9" />
+    <TextView
+        android:id="@+id/textview11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview10" />
+    <TextView
+        android:id="@+id/textview12"
+        android:textStyle="bold"
+        android:text="2nd Position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview11" />
+    <TextView
+        android:id="@+id/textview13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview12" />
+    <TextView
+        android:id="@+id/textview14"
+        android:textStyle="bold"
+        android:text="3rd Position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview13" />
+    <TextView
+        android:id="@+id/textview15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview14" />
+    <TextView
+        android:id="@+id/textview16"
+        android:textStyle="bold"
+        android:text="4th Position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview15" />
+    <TextView
+        android:id="@+id/textview17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview16" />
+</RelativeLayout>

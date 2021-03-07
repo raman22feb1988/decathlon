@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button7"
+        android:text="Simulate And End"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button8"
+        android:text="Results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button7" />
+    <TextView
+        android:id="@+id/textview4"
+        android:textStyle="bold"
+        android:text="Finals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button7" />
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview4" />
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview5" />
+    <TextView
+        android:id="@+id/textview7"
+        android:textStyle="bold"
+        android:text="Third Place Match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview6" />
+    <TextView
+        android:id="@+id/textview8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview7" />
+    <TextView
+        android:id="@+id/textview9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview8" />
+</RelativeLayout>
